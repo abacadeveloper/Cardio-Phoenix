@@ -846,44 +846,69 @@ input[type=submit]:hover {
   line-height: 35px;
 }
 
-.partner-container{
+
+.title-part h2{
+width: 100%;
+ text-align: center;
+ font-family: "Montserrat";
+ font-size: 1.5rem;
+ color: #354649;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-auto-rows: 270px;
+  grid-gap: 20px;
   width: 100%;
-
-}
-.partner-div{
-  margin: 0 auto;
-  height: 500px;
-  border: 1px solid blue;
-
-
+  height: 80vh;
+  justify-content: center;
+  align-content: center;
 }
 
-.partner-container, .partner-div,
-.partner-card
-{
-  display: flex;
-}
-
-.partner-card{
-  width: 1400px;
-  padding: 100px 10px;
-  align-items: center;
-  border: 1px solid blue;
-  flex-wrap: wrap;
-  
-}
 
 .cards{
-  border: 1px solid blue;
-  width: 240px;
-  height: 270px;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+
 }
 
 .cards img{
   width: 190px;
   height: 78px;
+  position: relative;
 }
+
+.cards h4{
+  font-family: "Montserrat";
+  line-break: auto;
+  position: absolute;
+  margin-top: 140px;
+}
+
+.certifications{
+  display: flex;
+  width: 900px;
+  margin: 80px auto;
+}
+
+
+.content-cert h2{
+  padding: 50px 0px;
+  color: #354649;
+  font-family: "Montserrat";
+  font-size: 2.2em;
+}
+
+.content-cert p{
+  font-family: "Montserrat";
+  line-height: 35px;
+}
+
 
 /*Clinical Research*/
 
